@@ -1,3 +1,40 @@
 body{
+    padding:0px;
+    margin:0px;
+    height:969px;
+
+}
+.container-header{
+    transition:all 2.5s ease-in-out;
+    background-image:url(../back.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+    height:969px;
+    width:100%;
+    position:relative;
+}
+.container-header .text{
+    transition:all 2.5s ease-in-out;
+    font-family:cursive;
+    font-size:50px;
+    color:#FFF;
+    position:absolute;
+    left:37%;
+    font-weight:bold;
+    top:36%;
+}
+.login-register{
+    transition:all 2.5s ease-in-out;
+    font-size:50px;
+    color:#FFF;
+    position:absolute;
+    top:44%;
+    left:41%;
+}
+.login-register span:first-of-type{
     color:red;
+}
+.login-register span:nth-of-type(2){
+    color:black;
 }
